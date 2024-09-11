@@ -1,0 +1,102 @@
+[0.136s] Invoking command in '/home/jetson/senton_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/jetson/senton_ws/src/f1tenth_system/ackermann_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/senton_ws/install/ackermann_mux
+[1.755s] -- The C compiler identification is GNU 9.4.0
+[1.756s] -- The CXX compiler identification is GNU 9.4.0
+[1.756s] -- Check for working C compiler: /usr/bin/cc
+[1.756s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.756s] -- Detecting C compiler ABI info
+[1.756s] -- Detecting C compiler ABI info - done
+[1.757s] -- Detecting C compile features
+[1.757s] -- Detecting C compile features - done
+[1.757s] -- Check for working CXX compiler: /usr/bin/c++
+[1.757s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.757s] -- Detecting CXX compiler ABI info
+[1.758s] -- Detecting CXX compiler ABI info - done
+[1.786s] -- Detecting CXX compile features
+[1.787s] -- Detecting CXX compile features - done
+[1.794s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.922s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.922s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.656s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.872s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.180s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.266s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.649s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.669s] -- Looking for pthread.h
+[3.973s] -- Looking for pthread.h - found
+[3.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.296s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.298s] -- Looking for pthread_create in pthreads
+[4.630s] -- Looking for pthread_create in pthreads - not found
+[4.634s] -- Looking for pthread_create in pthread
+[4.995s] -- Looking for pthread_create in pthread - found
+[4.998s] -- Found Threads: TRUE  
+[5.657s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[5.815s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[6.042s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.502s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.629s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.642s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.642s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.643s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.643s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.790s] -- Found PythonExtra: .so  
+[6.879s] -- Added test 'xmllint' to check XML markup files
+[6.881s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.885s] -- Configured cppcheck include dirs: /home/jetson/senton_ws/src/f1tenth_system/ackermann_mux/include
+[6.886s] -- Configured cppcheck exclude dirs and/or files: 
+[6.891s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.891s] -- Configured cpplint exclude dirs and/or files: 
+[6.899s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.901s] -- Added test 'lint_cmake' to check CMake code style
+[6.905s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.909s] -- Added test 'uncrustify' to check C / C++ code style
+[6.909s] -- Configured uncrustify additional arguments: 
+[6.922s] -- Configuring done
+[6.941s] -- Generating done
+[6.944s] -- Build files have been written to: /home/jetson/senton_ws/build/ackermann_mux
+[6.986s] Invoked command in '/home/jetson/senton_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/jetson/senton_ws/src/f1tenth_system/ackermann_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/senton_ws/install/ackermann_mux
+[6.988s] Invoking command in '/home/jetson/senton_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/senton_ws/build/ackermann_mux -- -j6 -l6
+[26.441s] [35m[1mScanning dependencies of target ackermann_mux[0m
+[26.448s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[26.448s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[26.448s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[228.713s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[229.735s] [100%] Built target ackermann_mux
+[229.991s] Invoked command in '/home/jetson/senton_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/senton_ws/build/ackermann_mux -- -j6 -l6
+[230.154s] Invoking command in '/home/jetson/senton_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/senton_ws/build/ackermann_mux
+[230.185s] -- Install configuration: ""
+[230.196s] -- Execute custom install script
+[230.198s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[230.225s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[230.253s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[230.288s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[230.308s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[230.334s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[230.361s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[230.384s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[230.407s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[230.430s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[230.454s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[230.483s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[230.507s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[230.536s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[230.559s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[230.582s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[230.604s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[230.629s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[230.653s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[230.677s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[230.700s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[230.728s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[230.755s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[230.780s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[230.803s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[230.827s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[230.852s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[230.875s] -- Symlinking: /home/jetson/senton_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[230.925s] Invoked command in '/home/jetson/senton_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/senton_ws/build/ackermann_mux

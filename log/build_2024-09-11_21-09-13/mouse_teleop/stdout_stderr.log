@@ -1,0 +1,54 @@
+'import warnings' failed; traceback:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/warnings.py", line 538, in <module>
+    _processoptions(sys.warnoptions)
+  File "/usr/lib/python3.8/warnings.py", line 208, in _processoptions
+    _setoption(arg)
+  File "/usr/lib/python3.8/warnings.py", line 224, in _setoption
+    import re
+  File "/usr/lib/python3.8/re.py", line 127, in <module>
+    import functools
+  File "/usr/lib/python3.8/functools.py", line 18, in <module>
+    from collections import namedtuple
+  File "/usr/lib/python3.8/collections/__init__.py", line 26, in <module>
+    from itertools import repeat as _repeat, chain as _chain, starmap as _starmap
+KeyboardInterrupt
+running egg_info
+creating ../../../../build/mouse_teleop/mouse_teleop.egg-info
+writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/senton_ws/build/mouse_teleop/build
+creating /home/jetson/senton_ws/build/mouse_teleop/build/lib
+creating /home/jetson/senton_ws/build/mouse_teleop/build/lib/mouse_teleop
+copying mouse_teleop/mouse_teleop.py -> /home/jetson/senton_ws/build/mouse_teleop/build/lib/mouse_teleop
+copying mouse_teleop/__init__.py -> /home/jetson/senton_ws/build/mouse_teleop/build/lib/mouse_teleop
+running install
+running install_lib
+creating /home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+copying /home/jetson/senton_ws/build/mouse_teleop/build/lib/mouse_teleop/mouse_teleop.py -> /home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+copying /home/jetson/senton_ws/build/mouse_teleop/build/lib/mouse_teleop/__init__.py -> /home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+byte-compiling /home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop/mouse_teleop.py to mouse_teleop.cpython-38.pyc
+byte-compiling /home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /home/jetson/senton_ws/install/mouse_teleop/share/mouse_teleop
+creating /home/jetson/senton_ws/install/mouse_teleop/share/mouse_teleop/config
+copying config/mouse_teleop.yaml -> /home/jetson/senton_ws/install/mouse_teleop/share/mouse_teleop/config
+creating /home/jetson/senton_ws/install/mouse_teleop/share/mouse_teleop/launch
+copying launch/mouse_teleop.launch.py -> /home/jetson/senton_ws/install/mouse_teleop/share/mouse_teleop/launch
+creating /home/jetson/senton_ws/install/mouse_teleop/share/ament_index
+creating /home/jetson/senton_ws/install/mouse_teleop/share/ament_index/resource_index
+creating /home/jetson/senton_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+copying resource/mouse_teleop -> /home/jetson/senton_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/mouse_teleop/mouse_teleop.egg-info to /home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info
+running install_scripts
+Installing mouse_teleop script to /home/jetson/senton_ws/install/mouse_teleop/lib/mouse_teleop
+writing list of installed files to '/home/jetson/senton_ws/build/mouse_teleop/install.log'

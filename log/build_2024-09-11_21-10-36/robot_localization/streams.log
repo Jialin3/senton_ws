@@ -1,0 +1,521 @@
+[0.050s] Invoking command in '/home/jetson/senton_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/jetson/senton_ws/src/robot_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/senton_ws/install/robot_localization
+[0.820s] -- The C compiler identification is GNU 9.4.0
+[0.821s] -- The CXX compiler identification is GNU 9.4.0
+[0.821s] -- Check for working C compiler: /usr/bin/cc
+[0.964s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.965s] -- Detecting C compiler ABI info
+[1.402s] -- Detecting C compiler ABI info - done
+[1.432s] -- Detecting C compile features
+[1.435s] -- Detecting C compile features - done
+[1.442s] -- Check for working CXX compiler: /usr/bin/c++
+[2.007s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.008s] -- Detecting CXX compiler ABI info
+[2.762s] -- Detecting CXX compiler ABI info - done
+[2.863s] -- Detecting CXX compile features
+[2.865s] -- Detecting CXX compile features - done
+[2.875s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[2.882s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.270s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.277s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.771s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.121s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.841s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.062s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.412s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.013s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.080s] -- Looking for pthread.h
+[11.012s] -- Looking for pthread.h - found
+[11.014s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.888s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.889s] -- Looking for pthread_create in pthreads
+[12.408s] -- Looking for pthread_create in pthreads - not found
+[12.411s] -- Looking for pthread_create in pthread
+[13.252s] -- Looking for pthread_create in pthread - found
+[13.279s] -- Found Threads: TRUE  
+[14.594s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[15.076s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[15.264s] -- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)
+[16.243s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[16.653s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[16.813s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[17.371s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[17.718s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[18.098s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[19.642s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[19.731s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[19.920s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[19.938s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[19.941s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[20.034s] -- Found GeographicLib: /usr/lib/aarch64-linux-gnu  
+[20.336s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[21.707s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[21.715s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[21.720s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[21.733s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[22.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.681s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[23.697s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[23.843s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[23.845s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[23.845s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[23.845s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[23.968s] -- Found PythonExtra: .so  
+[24.462s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[24.489s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[24.706s] -- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[24.715s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[24.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[24.889s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[24.889s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[25.001s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[25.052s] -- Check if compiler accepts -pthread
+[25.573s] -- Check if compiler accepts -pthread - yes
+[27.131s] -- Configuring done
+[29.523s] -- Generating done
+[29.546s] -- Build files have been written to: /home/jetson/senton_ws/build/robot_localization
+[31.950s] Invoked command in '/home/jetson/senton_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/jetson/senton_ws/src/robot_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/senton_ws/install/robot_localization
+[32.445s] Invoking command in '/home/jetson/senton_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/senton_ws/build/robot_localization -- -j6 -l6
+[35.285s] [35m[1mScanning dependencies of target gtest[0m
+[35.294s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[205.545s] [  2%] [32m[1mLinking CXX static library libgtest.a[0m
+[205.847s] [  2%] Built target gtest
+[205.872s] [35m[1mScanning dependencies of target gtest_main[0m
+[205.968s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[208.166s] [  3%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[208.246s] [  3%] Built target gtest_main
+[208.292s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[210.272s] [35m[1mScanning dependencies of target robot_localization__rosidl_generator_c[0m
+[210.345s] [  4%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/from_ll__functions.c.o[0m
+[210.865s] [  5%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/toggle_filter_processing__functions.c.o[0m
+[211.477s] [  6%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/to_ll__functions.c.o[0m
+[212.243s] [  7%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_pose__functions.c.o[0m
+[212.695s] [  8%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_datum__functions.c.o[0m
+[213.174s] [  9%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/get_state__functions.c.o[0m
+[213.906s] [ 10%] [32m[1mLinking C shared library librobot_localization__rosidl_generator_c.so[0m
+[214.147s] [ 10%] Built target robot_localization__rosidl_generator_c
+[214.193s] [35m[1mScanning dependencies of target robot_localization__cpp[0m
+[214.253s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[216.832s] [ 11%] Built target robot_localization__cpp
+[216.879s] [ 12%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[218.567s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_introspection_c[0m
+[218.706s] [ 13%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/from_ll__type_support.c.o[0m
+[219.235s] [ 14%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/get_state__type_support.c.o[0m
+[219.355s] [ 14%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_datum__type_support.c.o[0m
+[219.476s] [ 15%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_pose__type_support.c.o[0m
+[219.595s] [ 16%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/toggle_filter_processing__type_support.c.o[0m
+[219.709s] [ 17%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/to_ll__type_support.c.o[0m
+[219.828s] [ 18%] [32m[1mLinking C shared library librobot_localization__rosidl_typesupport_introspection_c.so[0m
+[220.001s] [ 18%] Built target robot_localization__rosidl_typesupport_introspection_c
+[220.037s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[221.422s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_introspection_cpp[0m
+[221.481s] [ 19%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/from_ll__type_support.cpp.o[0m
+[222.382s] [ 20%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_datum__type_support.cpp.o[0m
+[223.185s] [ 21%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_pose__type_support.cpp.o[0m
+[224.104s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/toggle_filter_processing__type_support.cpp.o[0m
+[224.879s] [ 23%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/to_ll__type_support.cpp.o[0m
+[225.669s] [ 24%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/get_state__type_support.cpp.o[0m
+[226.683s] [ 25%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_introspection_cpp.so[0m
+[226.858s] [ 25%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[226.892s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[228.211s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_fastrtps_cpp[0m
+[228.290s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/from_ll__type_support.cpp.o[0m
+[229.625s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[230.797s] [ 28%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/toggle_filter_processing__type_support.cpp.o[0m
+[231.945s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/to_ll__type_support.cpp.o[0m
+[233.078s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_datum__type_support.cpp.o[0m
+[234.225s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/get_state__type_support.cpp.o[0m
+[235.476s] [ 32%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_fastrtps_cpp.so[0m
+[235.699s] [ 32%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[235.726s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[236.630s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_cpp[0m
+[236.670s] [ 34%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/from_ll__type_support.cpp.o[0m
+[237.417s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_pose__type_support.cpp.o[0m
+[238.205s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/toggle_filter_processing__type_support.cpp.o[0m
+[239.010s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/to_ll__type_support.cpp.o[0m
+[239.773s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_datum__type_support.cpp.o[0m
+[240.633s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/get_state__type_support.cpp.o[0m
+[241.640s] [ 39%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_cpp.so[0m
+[241.905s] [ 39%] Built target robot_localization__rosidl_typesupport_cpp
+[241.990s] [ 40%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[243.613s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_fastrtps_c[0m
+[243.766s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/from_ll__type_support_c.cpp.o[0m
+[244.935s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/toggle_filter_processing__type_support_c.cpp.o[0m
+[246.047s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/to_ll__type_support_c.cpp.o[0m
+[247.132s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_pose__type_support_c.cpp.o[0m
+[248.131s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_datum__type_support_c.cpp.o[0m
+[249.127s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/get_state__type_support_c.cpp.o[0m
+[250.253s] [ 46%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_fastrtps_c.so[0m
+[250.521s] [ 46%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[250.551s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[251.492s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_c[0m
+[251.534s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/from_ll__type_support.cpp.o[0m
+[251.626s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/to_ll__type_support.cpp.o[0m
+[251.722s] [ 49%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/toggle_filter_processing__type_support.cpp.o[0m
+[251.819s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/set_pose__type_support.cpp.o[0m
+[251.913s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/set_datum__type_support.cpp.o[0m
+[252.013s] [ 52%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/get_state__type_support.cpp.o[0m
+[252.106s] [ 53%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_c.so[0m
+[252.213s] [ 53%] Built target robot_localization__rosidl_typesupport_c
+[252.242s] [35m[1mScanning dependencies of target robot_localization[0m
+[252.269s] [ 53%] Built target robot_localization
+[252.317s] [35m[1mScanning dependencies of target rl_lib[0m
+[253.055s] [ 54%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ekf.cpp.o[0m
+[270.894s] [ 55%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/navsat_transform.cpp.o[0m
+[309.085s] [ 55%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/robot_localization_estimator.cpp.o[0m
+[310.129s] [ 56%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/filter_utilities.cpp.o[0m
+[311.478s] [ 57%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/filter_base.cpp.o[0m
+[311.524s] [ 58%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ukf.cpp.o[0m
+[338.178s] [ 59%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_robot_localization_listener.cpp.o[0m
+[414.357s] [ 61%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_filter.cpp.o[0m
+[414.374s] [ 61%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_filter_utilities.cpp.o[0m
+[726.378s] [ 62%] [32m[1mLinking CXX shared library librl_lib.so[0m
+[730.093s] [ 62%] Built target rl_lib
+[730.128s] [35m[1mScanning dependencies of target test_ekf[0m
+[730.129s] [35m[1mScanning dependencies of target test_navsat_conversions[0m
+[730.130s] [35m[1mScanning dependencies of target test_ros_robot_localization_listener_publisher[0m
+[730.130s] [35m[1mScanning dependencies of target robot_localization__py[0m
+[730.130s] [35m[1mScanning dependencies of target ukf_node[0m
+[730.143s] [35m[1mScanning dependencies of target test_ros_robot_localization_listener[0m
+[730.215s] [ 63%] [34m[1mGenerating Python code for ROS interfaces[0m
+[730.219s] [ 63%] [32mBuilding CXX object CMakeFiles/test_navsat_conversions.dir/test/test_navsat_conversions.cpp.o[0m
+[730.617s] [ 63%] [32mBuilding CXX object CMakeFiles/test_ros_robot_localization_listener_publisher.dir/test/test_ros_robot_localization_listener_publisher.cpp.o[0m
+[730.743s] [ 64%] [32mBuilding CXX object CMakeFiles/test_ekf.dir/test/test_ekf.cpp.o[0m
+[730.791s] [ 65%] [32mBuilding CXX object CMakeFiles/ukf_node.dir/src/ukf_node.cpp.o[0m
+[730.831s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ros_robot_localization_listener.dir/test/test_ros_robot_localization_listener.cpp.o[0m
+[734.442s] [ 67%] [32m[1mLinking CXX executable test_navsat_conversions[0m
+[734.774s] [ 67%] Built target robot_localization__py
+[734.815s] [35m[1mScanning dependencies of target test_robot_localization_estimator[0m
+[735.198s] [ 68%] [32mBuilding CXX object CMakeFiles/test_robot_localization_estimator.dir/test/test_robot_localization_estimator.cpp.o[0m
+[735.354s] [ 68%] Built target test_navsat_conversions
+[735.472s] [35m[1mScanning dependencies of target ekf_node[0m
+[735.994s] [ 68%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[807.775s] [ 69%] [32m[1mLinking CXX executable test_robot_localization_estimator[0m
+[808.953s] [ 69%] Built target test_robot_localization_estimator
+[814.521s] [ 70%] [32m[1mLinking CXX executable ekf_node[0m
+[815.290s] [ 70%] Built target ekf_node
+[819.908s] [ 71%] [32m[1mLinking CXX executable test_ros_robot_localization_listener[0m
+[820.508s] [ 72%] [32m[1mLinking CXX executable ukf_node[0m
+[820.902s] [ 72%] Built target test_ros_robot_localization_listener
+[821.001s] [ 72%] Built target ukf_node
+[825.227s] [ 73%] [32m[1mLinking CXX executable test_ros_robot_localization_listener_publisher[0m
+[825.652s] [ 73%] Built target test_ros_robot_localization_listener_publisher
+[826.461s] [ 74%] [32m[1mLinking CXX executable test_ekf[0m
+[827.165s] [ 74%] Built target test_ekf
+[827.199s] [35m[1mScanning dependencies of target filter_base-test[0m
+[827.413s] [ 75%] [32mBuilding CXX object CMakeFiles/filter_base-test.dir/test/test_filter_base.cpp.o[0m
+[834.609s] [ 76%] [32m[1mLinking CXX executable filter_base-test[0m
+[835.267s] [ 76%] Built target filter_base-test
+[835.293s] [35m[1mScanning dependencies of target navsat_transform_node[0m
+[835.553s] [ 77%] [32mBuilding CXX object CMakeFiles/navsat_transform_node.dir/src/navsat_transform_node.cpp.o[0m
+[843.640s] [ 78%] [32m[1mLinking CXX executable navsat_transform_node[0m
+[844.050s] [ 78%] Built target navsat_transform_node
+[844.075s] [35m[1mScanning dependencies of target robot_localization_listener_node[0m
+[844.218s] [ 79%] [32mBuilding CXX object CMakeFiles/robot_localization_listener_node.dir/src/robot_localization_listener_node.cpp.o[0m
+[856.391s] [ 79%] [32m[1mLinking CXX executable robot_localization_listener_node[0m
+[856.842s] [ 79%] Built target robot_localization_listener_node
+[856.867s] [35m[1mScanning dependencies of target test_ukf_localization_node_interfaces[0m
+[856.982s] [ 80%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_interfaces.dir/test/test_ukf_localization_node_interfaces.cpp.o[0m
+[903.954s] [ 81%] [32m[1mLinking CXX executable test_ukf_localization_node_interfaces[0m
+[904.793s] [ 81%] Built target test_ukf_localization_node_interfaces
+[904.819s] [35m[1mScanning dependencies of target test_navsat_transform[0m
+[904.819s] [35m[1mScanning dependencies of target robot_localization__python[0m
+[904.821s] [35m[1mScanning dependencies of target test_filter_base_diagnostics_timestamps[0m
+[904.823s] [35m[1mScanning dependencies of target test_ekf_localization_node_interfaces[0m
+[904.827s] [35m[1mScanning dependencies of target test_ukf[0m
+[904.959s] [ 82%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_interfaces.dir/test/test_ekf_localization_node_interfaces.cpp.o[0m
+[904.969s] [ 83%] [32mBuilding CXX object CMakeFiles/test_navsat_transform.dir/test/test_navsat_transform.cpp.o[0m
+[904.973s] [ 83%] [32mBuilding C object CMakeFiles/robot_localization__python.dir/rosidl_generator_py/robot_localization/srv/_get_state_s.c.o[0m
+[904.983s] [ 84%] [32mBuilding C object CMakeFiles/robot_localization__python.dir/rosidl_generator_py/robot_localization/srv/_from_ll_s.c.o[0m
+[905.055s] [ 85%] [32mBuilding CXX object CMakeFiles/test_ukf.dir/test/test_ukf.cpp.o[0m
+[905.070s] [ 86%] [32mBuilding CXX object CMakeFiles/test_filter_base_diagnostics_timestamps.dir/test/test_filter_base_diagnostics_timestamps.cpp.o[0m
+[905.678s] [ 87%] [32mBuilding C object CMakeFiles/robot_localization__python.dir/rosidl_generator_py/robot_localization/srv/_set_datum_s.c.o[0m
+[905.703s] [ 88%] [32mBuilding C object CMakeFiles/robot_localization__python.dir/rosidl_generator_py/robot_localization/srv/_set_pose_s.c.o[0m
+[906.121s] [ 89%] [32mBuilding C object CMakeFiles/robot_localization__python.dir/rosidl_generator_py/robot_localization/srv/_toggle_filter_processing_s.c.o[0m
+[906.418s] [ 90%] [32mBuilding C object CMakeFiles/robot_localization__python.dir/rosidl_generator_py/robot_localization/srv/_to_ll_s.c.o[0m
+[906.941s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/librobot_localization__python.so[0m
+[907.119s] [ 91%] Built target robot_localization__python
+[907.185s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_introspection_c__pyext[0m
+[907.185s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_fastrtps_c__pyext[0m
+[907.300s] [ 92%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_localization/_robot_localization_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[907.319s] [ 93%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_localization/_robot_localization_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[908.240s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[908.343s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[908.446s] [ 95%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[908.492s] [35m[1mScanning dependencies of target robot_localization__rosidl_typesupport_c__pyext[0m
+[908.595s] [ 96%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_localization/_robot_localization_s.ep.rosidl_typesupport_c.c.o[0m
+[908.728s] [ 96%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[909.487s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[909.655s] [ 96%] Built target robot_localization__rosidl_typesupport_c__pyext
+[918.710s] [ 97%] [32m[1mLinking CXX executable test_navsat_transform[0m
+[919.704s] [ 97%] Built target test_navsat_transform
+[925.040s] [ 98%] [32m[1mLinking CXX executable test_ukf[0m
+[925.992s] [ 98%] Built target test_ukf
+[951.187s] [ 99%] [32m[1mLinking CXX executable test_filter_base_diagnostics_timestamps[0m
+[952.221s] [ 99%] Built target test_filter_base_diagnostics_timestamps
+[957.081s] [100%] [32m[1mLinking CXX executable test_ekf_localization_node_interfaces[0m
+[957.907s] [100%] Built target test_ekf_localization_node_interfaces
+[958.045s] Invoked command in '/home/jetson/senton_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/senton_ws/build/robot_localization -- -j6 -l6
+[958.505s] Invoking command in '/home/jetson/senton_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/senton_ws/build/robot_localization
+[958.528s] -- Install configuration: "RelWithDebInfo"
+[958.532s] -- Execute custom install script
+[958.536s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/ament_index/resource_index/rosidl_interfaces/robot_localization
+[958.563s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/msg/rosidl_generator_c__visibility_control.h
+[958.584s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__functions.h
+[958.606s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.h
+[958.628s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.h
+[958.647s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__functions.h
+[958.667s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.h
+[958.689s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.h
+[958.711s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__functions.h
+[958.734s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.h
+[958.755s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.h
+[958.776s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__functions.h
+[958.798s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.h
+[958.821s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.h
+[958.842s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__functions.h
+[958.861s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.h
+[958.879s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.h
+[958.901s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__functions.h
+[958.924s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.h
+[958.945s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.h
+[958.966s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/from_ll.h
+[958.986s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/get_state.h
+[959.009s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/set_datum.h
+[959.031s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/set_pose.h
+[959.052s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/to_ll.h
+[959.073s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.h
+[959.096s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/library_path.sh
+[959.119s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/library_path.dsv
+[959.145s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[959.166s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_c.h
+[959.188s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[959.209s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_c.h
+[959.231s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[959.254s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_c.h
+[959.275s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_c.h
+[959.297s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_c.so
+[959.321s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[959.342s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[959.362s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[959.383s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_cpp.hpp
+[959.404s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[959.426s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[959.448s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_cpp.hpp
+[959.471s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_cpp.so
+[959.494s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[959.516s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_c.h
+[959.538s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[959.563s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_c.h
+[959.587s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[959.611s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_c.h
+[959.637s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_c.h
+[959.662s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/msg/rosidl_generator_cpp__visibility_control.hpp
+[959.683s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__builder.hpp
+[959.705s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.hpp
+[959.726s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__traits.hpp
+[959.749s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.hpp
+[959.770s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__builder.hpp
+[959.791s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.hpp
+[959.814s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__traits.hpp
+[959.835s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.hpp
+[959.856s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__builder.hpp
+[959.877s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.hpp
+[959.896s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__traits.hpp
+[959.919s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.hpp
+[959.940s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__builder.hpp
+[959.961s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.hpp
+[959.981s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__traits.hpp
+[960.003s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.hpp
+[960.027s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__builder.hpp
+[960.051s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.hpp
+[960.073s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__traits.hpp
+[960.096s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.hpp
+[960.121s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__builder.hpp
+[960.145s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.hpp
+[960.166s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__traits.hpp
+[960.190s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.hpp
+[960.210s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/from_ll.hpp
+[960.232s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/get_state.hpp
+[960.256s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/set_datum.hpp
+[960.279s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/set_pose.hpp
+[960.302s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/to_ll.hpp
+[960.327s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.hpp
+[960.356s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_cpp.hpp
+[960.383s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[960.408s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_cpp.hpp
+[960.429s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[960.452s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_cpp.hpp
+[960.472s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_cpp.hpp
+[960.494s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/pythonpath.sh
+[960.518s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/pythonpath.dsv
+[960.540s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/__init__.py
+[960.562s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/__init__.py
+[960.584s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_from_ll.py
+[960.606s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_get_state.py
+[960.628s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_datum.py
+[960.648s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_pose.py
+[960.669s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_to_ll.py
+[960.691s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_toggle_filter_processing.py
+[960.714s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[960.736s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[960.758s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[960.779s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__python.so
+[960.801s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/FromLL.idl
+[960.825s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/GetState.idl
+[960.845s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetDatum.idl
+[960.867s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetPose.idl
+[960.888s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.idl
+[960.910s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToLL.idl
+[960.933s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/FromLL.srv
+[960.954s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/FromLL_Request.msg
+[960.975s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/FromLL_Response.msg
+[960.996s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/GetState.srv
+[961.020s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/GetState_Request.msg
+[961.042s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/GetState_Response.msg
+[961.062s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetDatum.srv
+[961.083s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Request.msg
+[961.108s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Response.msg
+[961.133s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetPose.srv
+[961.156s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetPose_Request.msg
+[961.180s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/SetPose_Response.msg
+[961.202s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.srv
+[961.223s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Request.msg
+[961.245s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Response.msg
+[961.267s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToLL.srv
+[961.286s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToLL_Request.msg
+[961.308s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/srv/ToLL_Response.msg
+[961.332s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/filter_base-test
+[961.352s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_filter_base_diagnostics_timestamps
+[961.374s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_ekf
+[961.393s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_ekf_localization_node_interfaces
+[961.415s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_ukf
+[961.440s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_ukf_localization_node_interfaces
+[961.461s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_robot_localization_estimator
+[961.481s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_navsat_conversions
+[961.501s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_navsat_transform
+[961.524s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener
+[961.545s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener_publisher
+[961.567s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/navsat_transform_node
+[961.586s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/ekf_node
+[961.607s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/ukf_node
+[961.629s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/robot_localization/robot_localization_listener_node
+[961.653s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/lib/librl_lib.so
+[961.675s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+[961.697s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+[961.721s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+[961.743s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+[961.765s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/path.sh
+[961.788s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/environment/path.dsv
+[961.809s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/local_setup.bash
+[961.831s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/local_setup.sh
+[961.852s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/local_setup.zsh
+[961.872s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/local_setup.dsv
+[961.892s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/package.dsv
+[961.916s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+[961.941s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake-extras.cmake
+[961.963s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[961.982s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[962.003s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_targets-extras.cmake
+[962.027s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[962.048s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[962.068s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[962.089s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[962.110s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[962.133s] -- Symlinking: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/package.xml
+[962.153s] -- Installing: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so
+[962.155s] -- Set runtime path of "/home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so" to ""
+[962.156s] -- Installing: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so
+[962.158s] -- Set runtime path of "/home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so" to ""
+[962.158s] -- Installing: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so
+[962.161s] -- Set runtime path of "/home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so" to ""
+[962.161s] -- Installing: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so
+[962.169s] -- Set runtime path of "/home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so" to ""
+[962.170s] -- Installing: /home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so
+[962.171s] -- Set runtime path of "/home/jetson/senton_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so" to ""
+[962.351s] Compiling '/home/jetson/senton_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/__init__.py'...
+[962.362s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test
+[962.363s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.launch.py
+[962.364s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.yaml
+[962.364s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.launch.py
+[962.365s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_localization_node_bag_pose_tester.cpp
+[962.366s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_navsat_transform.cpp
+[962.366s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.launch.py
+[962.367s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_filter_base.cpp
+[962.368s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener_publisher.cpp
+[962.368s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_navsat_conversions.cpp
+[962.369s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.sh
+[962.369s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.sh
+[962.369s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.sh
+[962.370s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.launch.py
+[962.370s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.launch.py
+[962.370s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test3.bag
+[962.445s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.yaml
+[962.445s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.sh
+[962.445s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.yaml
+[962.446s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.launch.py
+[962.446s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_navsat_transform.launch.py
+[962.446s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.launch.py
+[962.447s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.yaml
+[962.447s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.yaml
+[962.448s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf.cpp
+[962.448s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.launch.py
+[962.448s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.yaml
+[962.449s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.cpp
+[962.449s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf.cpp
+[962.450s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.cpp
+[962.450s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.cpp
+[962.451s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.launch.py
+[962.451s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.yaml
+[962.451s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.launch.py
+[962.452s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.yaml
+[962.452s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.launch.py
+[962.452s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test2.bag
+[962.454s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.yaml
+[962.455s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test1.bag
+[962.459s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.sh
+[962.460s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.cpp
+[962.460s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.sh
+[962.460s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.yaml
+[962.461s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.cpp
+[962.461s] -- Up-to-date: /home/jetson/senton_ws/install/robot_localization/include
+[962.462s] -- Up-to-date: /home/jetson/senton_ws/install/robot_localization/include/robot_localization
+[962.462s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/robot_localization_estimator.hpp
+[962.462s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/filter_base.hpp
+[962.463s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/filter_state.hpp
+[962.463s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/ros_robot_localization_listener.hpp
+[962.464s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/filter_utilities.hpp
+[962.464s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/measurement.hpp
+[962.465s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/navsat_conversions.hpp
+[962.465s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/ros_filter_types.hpp
+[962.465s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/navsat_transform.hpp
+[962.466s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/ukf.hpp
+[962.466s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/ros_filter_utilities.hpp
+[962.466s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/ekf.hpp
+[962.467s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/filter_common.hpp
+[962.467s] -- Installing: /home/jetson/senton_ws/install/robot_localization/include/robot_localization/ros_filter.hpp
+[962.468s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/params
+[962.468s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/params/ekf.yaml
+[962.469s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/params/ukf.yaml
+[962.469s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/params/navsat_transform.yaml
+[962.469s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml
+[962.470s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/launch
+[962.470s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/launch/ukf.launch.py
+[962.470s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/launch/ekf.launch.py
+[962.471s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/launch/dual_ekf_navsat_example.launch.py
+[962.471s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/launch/navsat_transform.launch.py
+[962.473s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport.cmake
+[962.474s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport-relwithdebinfo.cmake
+[962.475s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport.cmake
+[962.476s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[962.476s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport.cmake
+[962.477s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[962.478s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cppExport.cmake
+[962.478s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport.cmake
+[962.479s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[962.480s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport.cmake
+[962.480s] -- Installing: /home/jetson/senton_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[962.502s] Invoked command in '/home/jetson/senton_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/senton_ws/build/robot_localization

@@ -1,0 +1,30 @@
+[8.163s] Invoking command in '/home/jetson/senton_ws/build/joy_teleop': CMAKE_PREFIX_PATH=/home/jetson/senton_ws/install/teleop_tools_msgs:/home/jetson/nav_ws/install/pointcloud_to_laserscan:/home/jetson/senton_ws/install/vesc:/home/jetson/senton_ws/install/vesc_driver:/home/jetson/senton_ws/install/vesc_ackermann:/home/jetson/senton_ws/install/vesc_msgs:/home/jetson/senton_ws/install/teleop_tools:/home/jetson/senton_ws/install/ackermann_mux:/home/jetson/ws_livox/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/jetson/senton_ws/install/teleop_tools_msgs/lib:/home/jetson/nav_ws/install/pointcloud_to_laserscan/lib:/home/jetson/senton_ws/install/vesc_driver/lib:/home/jetson/senton_ws/install/vesc_ackermann/lib:/home/jetson/senton_ws/install/vesc_msgs/lib:/home/jetson/ws_livox/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jetson/senton_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/senton_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/senton_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/senton_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/senton_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/senton_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/senton_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/ws_livox/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/senton_ws/build/joy_teleop/build --no-deps symlink_data
+[18.247s] running develop
+[18.251s] running egg_info
+[18.251s] creating joy_teleop.egg-info
+[18.251s] writing joy_teleop.egg-info/PKG-INFO
+[18.251s] writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+[18.251s] writing entry points to joy_teleop.egg-info/entry_points.txt
+[18.251s] writing requirements to joy_teleop.egg-info/requires.txt
+[18.252s] writing top-level names to joy_teleop.egg-info/top_level.txt
+[18.252s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[18.252s] reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[18.252s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[18.252s] running build_ext
+[18.252s] Creating /home/jetson/senton_ws/install/joy_teleop/lib/python3.8/site-packages/site.py
+[18.252s] Creating /home/jetson/senton_ws/install/joy_teleop/lib/python3.8/site-packages/joy-teleop.egg-link (link to .)
+[18.253s] Installing incrementer_server script to /home/jetson/senton_ws/install/joy_teleop/lib/joy_teleop
+[18.253s] Installing joy_teleop script to /home/jetson/senton_ws/install/joy_teleop/lib/joy_teleop
+[18.254s] 
+[18.255s] Installed /home/jetson/senton_ws/build/joy_teleop
+[18.255s] running symlink_data
+[18.255s] symbolically linking /home/jetson/senton_ws/build/joy_teleop/package.xml -> /home/jetson/senton_ws/install/joy_teleop/share/joy_teleop
+[18.255s] creating /home/jetson/senton_ws/install/joy_teleop/share/joy_teleop/config
+[18.255s] symbolically linking /home/jetson/senton_ws/build/joy_teleop/config/joy_teleop_example.yaml -> /home/jetson/senton_ws/install/joy_teleop/share/joy_teleop/config
+[18.255s] creating /home/jetson/senton_ws/install/joy_teleop/share/joy_teleop/launch
+[18.256s] symbolically linking /home/jetson/senton_ws/build/joy_teleop/launch/example.launch.py -> /home/jetson/senton_ws/install/joy_teleop/share/joy_teleop/launch
+[18.256s] creating /home/jetson/senton_ws/install/joy_teleop/share/ament_index
+[18.256s] creating /home/jetson/senton_ws/install/joy_teleop/share/ament_index/resource_index
+[18.286s] creating /home/jetson/senton_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[18.287s] symbolically linking /home/jetson/senton_ws/build/joy_teleop/resource/joy_teleop -> /home/jetson/senton_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[18.337s] Invoked command in '/home/jetson/senton_ws/build/joy_teleop' returned '0': CMAKE_PREFIX_PATH=/home/jetson/senton_ws/install/teleop_tools_msgs:/home/jetson/nav_ws/install/pointcloud_to_laserscan:/home/jetson/senton_ws/install/vesc:/home/jetson/senton_ws/install/vesc_driver:/home/jetson/senton_ws/install/vesc_ackermann:/home/jetson/senton_ws/install/vesc_msgs:/home/jetson/senton_ws/install/teleop_tools:/home/jetson/senton_ws/install/ackermann_mux:/home/jetson/ws_livox/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/jetson/senton_ws/install/teleop_tools_msgs/lib:/home/jetson/nav_ws/install/pointcloud_to_laserscan/lib:/home/jetson/senton_ws/install/vesc_driver/lib:/home/jetson/senton_ws/install/vesc_ackermann/lib:/home/jetson/senton_ws/install/vesc_msgs/lib:/home/jetson/ws_livox/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jetson/senton_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/senton_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/senton_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/senton_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/senton_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/senton_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/senton_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/senton_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/ws_livox/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/senton_ws/build/joy_teleop/build --no-deps symlink_data

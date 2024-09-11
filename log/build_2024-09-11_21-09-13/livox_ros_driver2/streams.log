@@ -1,0 +1,19 @@
+[0.879s] Invoking command in '/home/jetson/senton_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/senton_ws/install/f1tenth_stack:/home/jetson/senton_ws/install/joy_teleop:/home/jetson/senton_ws/install/mouse_teleop:/home/jetson/senton_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/jetson/senton_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/jetson/senton_ws/install/livox_ros_driver2
+[1.626s] -- The C compiler identification is GNU 9.4.0
+[1.627s] -- The CXX compiler identification is GNU 9.4.0
+[1.627s] -- Check for working C compiler: /usr/bin/cc
+[1.627s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.628s] -- Detecting C compiler ABI info
+[1.640s] -- Detecting C compiler ABI info - done
+[1.664s] -- Detecting C compile features
+[1.665s] -- Detecting C compile features - done
+[1.665s] -- Check for working CXX compiler: /usr/bin/c++
+[2.056s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.070s] -- Detecting CXX compiler ABI info
+[2.318s] -- Detecting CXX compiler ABI info - done
+[2.345s] -- Detecting CXX compile features
+[2.346s] -- Detecting CXX compile features - done
+[2.352s] -- livox_ros_driver2 version: 1.2.4
+[2.357s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.428s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
