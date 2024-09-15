@@ -23,13 +23,13 @@ def generate_launch_description():
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_baselink_to_laser',
-        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'ego_racecar/front_right_hinge', 'ego_racecar/front_right_wheel']
+        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'senton/front_right_hinge', 'senton/front_right_wheel']
         ),
         Node(
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_baselink_to_laser',
-        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'ego_racecar/front_left_hinge', 'ego_racecar/front_left_wheel']
+        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'senton/front_left_hinge', 'senton/front_left_wheel']
         ),
         
     ])

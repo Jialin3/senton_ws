@@ -13,7 +13,7 @@
   <xacro:property name="laser_distance_from_base_link" value="0.275" />
   <xacro:property name="laser_height" value="0.05" />
   <xacro:property name="laser_radius" value="0.026" />
-  <xacro:property name="car_name" value="ego_racecar" />
+  <xacro:property name="car_name" value="senton" />
 
   <material name="black">
     <color rgba="0.2 0.2 0.2 1."/>
@@ -130,12 +130,12 @@
   <joint name="imu_joint" type="fixed">
     <axis xyz="0 1 0" />
     <origin xyz="0.12 0 0.125" rpy="0 0 0"/>
-    <parent link="base_link"/>
-    <child link="imu_link"/>
+    <parent link="${car_name}/base_link"/>
+    <child link="${car_name}/imu_link"/>
   </joint>
 
   <!-- IMU -->
-  <link name="imu_link">
+  <link name="${car_name}/imu_link">
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
@@ -157,5 +157,25 @@
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
     </inertial>
   </link>
+
+   <!-- Gazebo插件设置相关 -->
+  <gazebo reference="${car_name}/base_link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+  <gazebo reference="${car_name}/front_right_wheel">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="${car_name}/front_left_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="${car_name}/back_right_wheel">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="${car_name}/back_left_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="${car_name}/imu_link">
+    <material>Gazebo/BuildingFrame</material>
+  </gazebo>
 
 </robot>
