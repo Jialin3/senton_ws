@@ -1,0 +1,22 @@
+[0.371s] Invoking command in '/home/tang/senton_ws/src/senton_description': PYTHONPATH=/home/tang/senton_ws/build/senton_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/senton_description build --build-base /home/tang/senton_ws/build/senton_description/build install --record /home/tang/senton_ws/build/senton_description/install.log --install-scripts $base/lib/senton_description --single-version-externally-managed install_data
+[0.493s] running egg_info
+[0.493s] writing ../../build/senton_description/senton_description.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../../build/senton_description/senton_description.egg-info/dependency_links.txt
+[0.493s] writing entry points to ../../build/senton_description/senton_description.egg-info/entry_points.txt
+[0.493s] writing requirements to ../../build/senton_description/senton_description.egg-info/requires.txt
+[0.493s] writing top-level names to ../../build/senton_description/senton_description.egg-info/top_level.txt
+[0.521s] reading manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+[0.521s] writing manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+[0.521s] running build
+[0.521s] running build_py
+[0.521s] running install
+[0.521s] running install_lib
+[0.521s] running install_data
+[0.521s] creating /home/tang/senton_ws/install/senton_description/share/senton_description/launch
+[0.522s] copying launch/ego_robot_publisher.launch.py -> /home/tang/senton_ws/install/senton_description/share/senton_description/launch
+[0.522s] running install_egg_info
+[0.522s] removing '/home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description-0.0.0-py3.8.egg-info' (and everything under it)
+[0.522s] Copying ../../build/senton_description/senton_description.egg-info to /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description-0.0.0-py3.8.egg-info
+[0.522s] running install_scripts
+[0.529s] writing list of installed files to '/home/tang/senton_ws/build/senton_description/install.log'
+[0.541s] Invoked command in '/home/tang/senton_ws/src/senton_description' returned '0': PYTHONPATH=/home/tang/senton_ws/build/senton_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/senton_description build --build-base /home/tang/senton_ws/build/senton_description/build install --record /home/tang/senton_ws/build/senton_description/install.log --install-scripts $base/lib/senton_description --single-version-externally-managed install_data

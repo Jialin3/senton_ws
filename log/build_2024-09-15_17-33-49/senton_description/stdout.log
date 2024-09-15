@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/senton_description/senton_description.egg-info
+writing ../../build/senton_description/senton_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/senton_description/senton_description.egg-info/dependency_links.txt
+writing entry points to ../../build/senton_description/senton_description.egg-info/entry_points.txt
+writing requirements to ../../build/senton_description/senton_description.egg-info/requires.txt
+writing top-level names to ../../build/senton_description/senton_description.egg-info/top_level.txt
+writing manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tang/senton_ws/build/senton_description/build
+creating /home/tang/senton_ws/build/senton_description/build/lib
+creating /home/tang/senton_ws/build/senton_description/build/lib/senton_description
+copying senton_description/__init__.py -> /home/tang/senton_ws/build/senton_description/build/lib/senton_description
+running install
+running install_lib
+creating /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description
+copying /home/tang/senton_ws/build/senton_description/build/lib/senton_description/__init__.py -> /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description
+byte-compiling /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/tang/senton_ws/install/senton_description/share/ament_index
+creating /home/tang/senton_ws/install/senton_description/share/ament_index/resource_index
+creating /home/tang/senton_ws/install/senton_description/share/ament_index/resource_index/packages
+copying resource/senton_description -> /home/tang/senton_ws/install/senton_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/tang/senton_ws/install/senton_description/share/senton_description
+running install_egg_info
+Copying ../../build/senton_description/senton_description.egg-info to /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/tang/senton_ws/build/senton_description/install.log'

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/senton_description/senton_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/senton_description/senton_description.egg-info/dependency_links.txt
+writing entry points to ../../build/senton_description/senton_description.egg-info/entry_points.txt
+writing requirements to ../../build/senton_description/senton_description.egg-info/requires.txt
+writing top-level names to ../../build/senton_description/senton_description.egg-info/top_level.txt
+reading manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/tang/senton_ws/install/senton_description/share/senton_description/launch
+copying launch/ego_robot_publisher.launch.py -> /home/tang/senton_ws/install/senton_description/share/senton_description/launch
+running install_egg_info
+removing '/home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/senton_description/senton_description.egg-info to /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/tang/senton_ws/build/senton_description/install.log'

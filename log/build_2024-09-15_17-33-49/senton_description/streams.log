@@ -1,0 +1,33 @@
+[0.397s] Invoking command in '/home/tang/senton_ws/src/senton_description': PYTHONPATH=/home/tang/senton_ws/build/senton_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/senton_description build --build-base /home/tang/senton_ws/build/senton_description/build install --record /home/tang/senton_ws/build/senton_description/install.log --install-scripts $base/lib/senton_description --single-version-externally-managed install_data
+[0.517s] running egg_info
+[0.517s] creating ../../build/senton_description/senton_description.egg-info
+[0.517s] writing ../../build/senton_description/senton_description.egg-info/PKG-INFO
+[0.517s] writing dependency_links to ../../build/senton_description/senton_description.egg-info/dependency_links.txt
+[0.517s] writing entry points to ../../build/senton_description/senton_description.egg-info/entry_points.txt
+[0.517s] writing requirements to ../../build/senton_description/senton_description.egg-info/requires.txt
+[0.517s] writing top-level names to ../../build/senton_description/senton_description.egg-info/top_level.txt
+[0.527s] writing manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+[0.548s] reading manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+[0.549s] writing manifest file '../../build/senton_description/senton_description.egg-info/SOURCES.txt'
+[0.549s] running build
+[0.549s] running build_py
+[0.549s] creating /home/tang/senton_ws/build/senton_description/build
+[0.549s] creating /home/tang/senton_ws/build/senton_description/build/lib
+[0.549s] creating /home/tang/senton_ws/build/senton_description/build/lib/senton_description
+[0.549s] copying senton_description/__init__.py -> /home/tang/senton_ws/build/senton_description/build/lib/senton_description
+[0.549s] running install
+[0.549s] running install_lib
+[0.550s] creating /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description
+[0.550s] copying /home/tang/senton_ws/build/senton_description/build/lib/senton_description/__init__.py -> /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description
+[0.550s] byte-compiling /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description/__init__.py to __init__.cpython-38.pyc
+[0.551s] running install_data
+[0.551s] creating /home/tang/senton_ws/install/senton_description/share/ament_index
+[0.551s] creating /home/tang/senton_ws/install/senton_description/share/ament_index/resource_index
+[0.551s] creating /home/tang/senton_ws/install/senton_description/share/ament_index/resource_index/packages
+[0.551s] copying resource/senton_description -> /home/tang/senton_ws/install/senton_description/share/ament_index/resource_index/packages
+[0.551s] copying package.xml -> /home/tang/senton_ws/install/senton_description/share/senton_description
+[0.551s] running install_egg_info
+[0.552s] Copying ../../build/senton_description/senton_description.egg-info to /home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages/senton_description-0.0.0-py3.8.egg-info
+[0.552s] running install_scripts
+[0.563s] writing list of installed files to '/home/tang/senton_ws/build/senton_description/install.log'
+[0.575s] Invoked command in '/home/tang/senton_ws/src/senton_description' returned '0': PYTHONPATH=/home/tang/senton_ws/build/senton_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tang/senton_ws/install/senton_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/senton_description build --build-base /home/tang/senton_ws/build/senton_description/build install --record /home/tang/senton_ws/build/senton_description/install.log --install-scripts $base/lib/senton_description --single-version-externally-managed install_data
